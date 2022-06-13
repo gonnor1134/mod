@@ -1,7 +1,7 @@
 {
     "name": "pack-mod",
-    "title": "모듈 제목",
-    "description": "모듈 설명",
+    "title": "salt",
+    "description": "salt",
     "version": "0.1",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
@@ -9,19 +9,19 @@
     "compatibleCoreVersion": "9.235",
     "authors": [
         {
-            "name": "만든 이 이름을 적어주세요.",
+            "name": "salt",
         }
     ],
     "packs": [
         {
-            "name": "module-creatures",
-            "label": "Module Creatures",
+            "name": "creatures",
+            "label": "creatures",
             "path": "./packs/creatures.db",
             "type": "Actor"
         },
         {
-            "name": "module-items",
-            "label": "Module Items",
+            "name": "items",
+            "label": "items",
             "path": "./packs/items.db",
             "type": "Item"
         },
